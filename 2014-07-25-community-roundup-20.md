@@ -27,12 +27,10 @@ You have to read this article from Ice Lab, write by [Josephine Hall](http://ice
 ### ReactScriptLoader
 Yariv Sadan created [ReactScriptLoader](https://github.com/yariv/ReactScriptLoader) to make it easier to load external scripts.
 
->```
+>```javascript
 /** @jsx React.DOM */
-
 var React = require('react');
 var ReactScriptLoaderMixin = require('./ReactScriptLoaderMixin.js').ReactScriptLoaderMixin;
-
 var Foo = React.createClass({
     mixins: [ReactScriptLoaderMixin],
     getInitialState: function() {
@@ -41,23 +39,19 @@ var Foo = React.createClass({
             scriptLoadError: false,
         };
     },
-
     // this function tells ReactScriptLoaderMixin where to load the script from
     getScriptURL: function() {
         return 'http://d3js.org/d3.v3.min.js';
     },
-
     // ReactScriptLoaderMixin calls this function when the script has loaded
     // successfully.
     onScriptLoaded: function() {
         this.setState({scriptLoading: false});
     },
-
     // ReactScriptLoaderMixin calls this function when the script has failed to load.
     onScriptError: function() {
         this.setState({scriptLoading: false, scriptLoadError: true});
     },
-
     render: function() {
         var message;
         if (this.state.scriptLoading) {
@@ -75,7 +69,7 @@ var Foo = React.createClass({
 ### ReactIntl Mixin by Yahoo
 Yahoo implements a [ReactJS component mixin](https://github.com/yahoo/react-intl) that adds these new methods to any React component.
 
->```
+>```javascript
 var MyComponent = React.createClass({
   mixins: [ReactIntlMixin],
   render: function () {
