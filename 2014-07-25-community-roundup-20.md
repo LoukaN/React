@@ -10,7 +10,9 @@ ReactJS will be present from 20 till 23 July in [San Francisco](http://www.meetu
 
 If you have miss the last [London User Group Meetup](http://www.meetup.com/London-React-User-Group/events/191406572/) you can find the broadcast [here](https://www.youtube.com/watch?v=CP3lvm5Ppqo).
 
-By the way, Wednesday in May the 28th 2014 there was the [JSConf](http://2014.jsconf.us/) 2014 where Christopher Chedeau do a talk about  [“Why does React Scale?”](https://www.youtube.com/watch?v=D-ioDiacTm8).
+By the way, Wednesday in May the 28th 2014 there was the [JSConf](http://2014.jsconf.us/) 2014 where Christopher Chedeau do a talk about “Why does React Scale?” :
+
+<iframe width="560" height="315" src="//www.youtube.com/watch?v=D-ioDiacTm8" frameborder="0" allowfullscreen></iframe>
 
 ## React Community
 For some time, we are amaze by seeing how the community is invested, every action are the symbol of a growing community, and that’s clear to us  we have to support you the best we could.
