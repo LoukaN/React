@@ -21,6 +21,9 @@ For some time, we are amaze by seeing how the community is invested, every actio
 
 You have to read this article from Ice Lab, write by [Josephine Hall](http://icelab.com.au/about/#josephine-hall), [“Thinking and Learning React.js”](http://icelab.com.au/articles/thinking-and-learning-reactjs/)
 
+###Acorn JSX a faster React.js JSX parser
+[Acorn JSX Edition](https://github.com/RReverser/acorn-jsx) by Ingvar Stepanyan is an experimental, alternative, faster React.js JSX parser by integrating pieces of code from official parser, modified to match Acorn’s parsing logic.
+
 ### ReactScriptLoader
 Yariv Sadan created [ReactScriptLoader](https://github.com/yariv/ReactScriptLoader) to make it easier to load external scripts.
 
@@ -120,8 +123,6 @@ render: function() {
   }
 });
 ```
-###Acorn JSX a faster React.js JSX parser
-[Acorn JSX Edition](https://github.com/RReverser/acorn-jsx) by Ingvar Stepanyan is an experimental, alternative, faster React.js JSX parser by integrating pieces of code from official parser, modified to match Acorn’s parsing logic.
 
 ## Random Tweet
 <blockquote class="twitter-tweet" lang="en"><p>I take back the mean things I said about <a href="https://twitter.com/reactjs">@reactjs</a> I actually like it.</p>&mdash; Apphacker (@apphacker) <a href="https://twitter.com/apphacker/status/490738080156893184">July 20, 2014</a></blockquote>
