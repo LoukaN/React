@@ -93,26 +93,21 @@ That's what Jim Cowart explain in this [news](http://www.ifandelse.com/using-rea
 
 >```javascript
 var KendoExample = React.createClass({
-
-  mixins: [React.postal],
-
+	mixins: [React.postal],
   getInitialState: function() {
     return {
       speed: 88,
       uom:"MPH"
     }
   },
-
   componentWillMount: function() {
     this.subscribe("change.#", function(data) {
       this.setState(data);
     });
   },
-
   componentWillUnmount: function() {
     this.disposeSubscriptions();
   },
-
 render: function() {
     return <div>
       <div className="container">
