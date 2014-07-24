@@ -30,9 +30,9 @@ Beautiful Design explained by Jim Cowart in this [news](http://www.ifandelse.com
 ### Adding live edit to a React Project
 [Dan Abramov](https://twitter.com/dan_abramov) wrote step-by-step instructions on [adding live edit to a React project](http://gaearon.github.io/react-hot-loader/)
 
->```
-Meet react-hot-loader, a drop-in Webpack loader1 you can use to enable live editing for React components in your projects. No browser plugins or IDE hooks required.
-```
+<iframe src="//player.vimeo.com/video/100010922" width="500" height="287" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+[![](/img/reacthotloader.gif)](https://github.com/gaearon/react-hot-loader)
 
 ###Acorn JSX a 1.5-2x faster React.js JSX parser
 [Acorn JSX Edition](https://github.com/RReverser/acorn-jsx) by Ingvar Stepanyan is an experimental, alternative, faster React.js JSX parser by integrating pieces of code from official parser, modified to match Acorn’s parsing logic.
