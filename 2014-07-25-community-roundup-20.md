@@ -20,13 +20,6 @@ By the way, Wednesday in May the 28th 2014 there was the [JSConf](http://2014.js
 
 ## More People Using React
 
-[Josephine Hall](http://icelab.com.au/about/#josephine-hall), from Ice Lab write a news named [“Thinking and Learning React.js”](http://icelab.com.au/articles/thinking-and-learning-reactjs/) after using React to build a mobile-focussed app for one of his clients
-
-### Using ReactJS and KendoUI Together
-Beautiful Design explained by Jim Cowart in this [news](http://www.ifandelse.com/using-reactjs-and-kendoui-together/).
-
-[![](/img/kendoresult.png)](http://www.ifandelse.com/using-reactjs-and-kendoui-together/)
-
 ### Adding live edit to a React Project
 [Dan Abramov](https://twitter.com/dan_abramov) wrote step-by-step instructions on [adding live edit to a React project](http://gaearon.github.io/react-hot-loader/)
 
@@ -34,7 +27,15 @@ Beautiful Design explained by Jim Cowart in this [news](http://www.ifandelse.com
 
 [![](/img/reacthotloader.gif)](https://github.com/gaearon/react-hot-loader)
 
-###Acorn JSX a 1.5-2x faster React.js JSX parser
+### Thinking and Learning React.js
+[Josephine Hall](http://icelab.com.au/about/#josephine-hall), from Ice Lab write a news named [“Thinking and Learning React.js”](http://icelab.com.au/articles/thinking-and-learning-reactjs/) after using React to build a mobile-focussed app for one of his clients
+
+### Using ReactJS and KendoUI Together
+Beautiful Design explained by Jim Cowart in this [news](http://www.ifandelse.com/using-reactjs-and-kendoui-together/).
+
+[![](/img/kendoresult.png)](http://www.ifandelse.com/using-reactjs-and-kendoui-together/)
+
+### Acorn JSX a 1.5-2x faster React.js JSX parser
 [Acorn JSX Edition](https://github.com/RReverser/acorn-jsx) by Ingvar Stepanyan is an experimental, alternative, faster React.js JSX parser by integrating pieces of code from official parser, modified to match Acorn’s parsing logic.
 
 ### ReactScriptLoader
