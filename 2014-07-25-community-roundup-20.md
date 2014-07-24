@@ -23,6 +23,7 @@ You have to read this article from Ice Lab, write by [Josephine Hall](http://ice
 
 ### ReactScriptLoader
 Yariv Sadan created [ReactScriptLoader](https://github.com/yariv/ReactScriptLoader) to make it easier to load external scripts.
+
 >```
 /** @jsx React.DOM */
 
@@ -89,6 +90,7 @@ Atom.io recently release the new [React editor Component](http://blog.atom.io/20
 
 ### Using ReactJS and KendoUI Together
 That's what Jim Cowart explain in this [news](http://www.ifandelse.com/using-reactjs-and-kendoui-together/).
+
 >```
 var KendoExample = React.createClass({
 
@@ -111,7 +113,7 @@ var KendoExample = React.createClass({
     this.disposeSubscriptions();
   },
 
-  render: function() {
+render: function() {
     return <div>
       <div className="container">
         <Kendo.RadialGauge value={this.state.speed} />
