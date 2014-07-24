@@ -22,6 +22,11 @@ By the way, Wednesday in May the 28th 2014 there was the [JSConf](http://2014.js
 
 [Josephine Hall](http://icelab.com.au/about/#josephine-hall), from Ice Lab write a news named [“Thinking and Learning React.js”](http://icelab.com.au/articles/thinking-and-learning-reactjs/) after using React to build a mobile-focussed app for one of his clients
 
+### Using ReactJS and KendoUI Together
+Beautiful Design explained by Jim Cowart in this [news](http://www.ifandelse.com/using-reactjs-and-kendoui-together/).
+
+[![](/img/kendoresult.png)](http://www.ifandelse.com/using-reactjs-and-kendoui-together/)
+
 ### Adding live edit to a React Project
 [Dan Abramov](https://twitter.com/dan_abramov) wrote step-by-step instructions on [adding live edit to a React project](http://gaearon.github.io/react-hot-loader/)
 
@@ -86,11 +91,6 @@ var MyComponent = React.createClass({
 ### Atom version 0.116.0 enable React editor component by default
 Atom.io recently release the new [React editor Component](http://blog.atom.io/2014/07/22/default-to-react-editor.html) using ReactJS.
 [![](http://blog.atom.io/img/posts/use-react-editor.png)](http://blog.atom.io/2014/07/22/default-to-react-editor.html)
-
-### Using ReactJS and KendoUI Together
-Beautiful Design explained by Jim Cowart in this [news](http://www.ifandelse.com/using-reactjs-and-kendoui-together/).
-
-[![](/img/kendoresult.png)](http://www.ifandelse.com/using-reactjs-and-kendoui-together/)
 
 ## Random Tweet
 <blockquote class="twitter-tweet" lang="en"><p>I take back the mean things I said about <a href="https://twitter.com/reactjs">@reactjs</a> I actually like it.</p>&mdash; Apphacker (@apphacker) <a href="https://twitter.com/apphacker/status/490738080156893184">July 20, 2014</a></blockquote>
