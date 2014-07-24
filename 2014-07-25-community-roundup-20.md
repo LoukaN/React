@@ -17,11 +17,19 @@ By the way, Wednesday in May the 28th 2014 there was the [JSConf](http://2014.js
 ## React Community
 For some time, we are amaze by seeing how the community is invested, every action are the symbol of a growing community, and that’s clear to us  we have to support you the best we could.
 
+### Twitter React Community List
 [John Linch](https://twitter.com/johnrlynch) make a [Twitter List](https://twitter.com/johnrlynch/facebook-react-js/members) which can helps everybody to get in touch with the community.
 
 ## More People Using React
 
 You have to read this article from Ice Lab, write by [Josephine Hall](http://icelab.com.au/about/#josephine-hall), [“Thinking and Learning React.js”](http://icelab.com.au/articles/thinking-and-learning-reactjs/)
+
+### Adding live edit to a React Project
+[Dan Abramov](https://twitter.com/dan_abramov) wrote step-by-step instructions on [adding live edit to a React project](http://gaearon.github.io/react-hot-loader/)
+
+>```
+Meet react-hot-loader, a drop-in Webpack loader1 you can use to enable live editing for React components in your projects. No browser plugins or IDE hooks required.
+```
 
 ###Acorn JSX a faster React.js JSX parser
 [Acorn JSX Edition](https://github.com/RReverser/acorn-jsx) by Ingvar Stepanyan is an experimental, alternative, faster React.js JSX parser by integrating pieces of code from official parser, modified to match Acorn’s parsing logic.
