@@ -3,7 +3,7 @@ title: "Community Round-up #20"
 layout: post
 author: Lou Husson
 ---
-## We didn't do a round-up for last month, so this the following is round-up #20.
+## We didn't do a round-up for last month, so the following is round-up #20.
 Currently, React get more commit from open source than Facebook Software Engineer
 
 ## React Meetups!
