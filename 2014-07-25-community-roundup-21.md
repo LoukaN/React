@@ -6,6 +6,7 @@ author: Lou Husson
 
 ## React Router : A complete routing library for React.
 [Ryan Florence](https://github.com/rpflorence) share a project named [React Router](https://github.com/rackt/react-router) on Github who allow you to complete trace your library for React.
+The author highlights four benefits of this approach : an incredible screen-creation productivity, an immediate understanding of application structure, a code tractability and urls are your first thought, not an after-thougt.
 
 >```
 Features
