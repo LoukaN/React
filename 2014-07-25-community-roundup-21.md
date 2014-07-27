@@ -6,8 +6,10 @@ author: Lou Husson
 
 
 ## Using React components as Backbone Views
-Venmo have begun rewriting and redesigning his front-end. The best situation to try ReactJS !
-[Thomas Boyt](http://www.thomasboyt.com/2013/12/17/using-reactjs-as-a-backbone-view.html) say "The most unique and most controversial part of React is its use of JSX"
+[Venmo](https://venmo.com/) have begun rewriting and redesigning his front-end. The best situation to try ReactJS !
+[Thomas Boyt](http://www.thomasboyt.com/) write a news [Using React components as Backbone View](http://www.thomasboyt.com/2013/12/17/using-reactjs-as-a-backbone-view.html).
+
+> "The most unique and most controversial part of React is its use of JSX"
 
 >```javascript
 /** @jsx React.DOM */
@@ -19,10 +21,13 @@ var component = React.createClass({
 ```
 
 ### 5 Best Mobiles Web App Frameworks : React
+[Grgur Grisogono](https://github.com/grgur) write an article ["5 Best Mobile Web App Frameworks : React"](http://moduscreate.com/5-best-mobile-web-app-frameworks-reactjs/)
+This news describe with precision the ReactJS strenght's. 
+
 
 ### First Look: Getting Started with Facebook’s ReactJS Library
 [Kirill Buga](http://modernweb.com/authors/kirill-buga/) share about his [experience](http://modernweb.com/2014/07/23/getting-started-reactjs/?utm_content=bufferac1a8&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer) getting started with the ReactJS Library from Facebook.
-ReactJS will definitely change your perception of Front-end implementation
+ReactJS will definitely change your perception of Front-end implementation.
 
 [![](/img/reactimg21.png)](http://www.ifandelse.com/using-reactjs-and-kendoui-together/)
 
