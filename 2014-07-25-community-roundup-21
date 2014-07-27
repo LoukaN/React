@@ -1,0 +1,104 @@
+---
+title: "Community Round-up #21"
+layout: post
+author: Lou Husson
+---
+
+
+## Using React components as Backbone Views
+Venmo have begun rewriting and redesigning his front-end. The best situation to try ReactJS !
+[Thomas Boyt](http://www.thomasboyt.com/2013/12/17/using-reactjs-as-a-backbone-view.html) say "The most unique and most controversial part of React is its use of JSX"
+
+>```javascript
+/** @jsx React.DOM */
+var component = React.createClass({
+  render: function() {
+    return <a href="http://venmo.com">Venmo</a>
+  }
+});
+```
+
+### First Look: Getting Started with Facebook’s ReactJS Library
+[Kirill Buga](http://modernweb.com/authors/kirill-buga/) share about his [experience](http://modernweb.com/2014/07/23/getting-started-reactjs/?utm_content=bufferac1a8&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer) getting started with the ReactJS Library from Facebook.
+ReactJS will definitely change your perception of Front-end implementation
+
+[![](/img/reactimg21.png)](http://www.ifandelse.com/using-reactjs-and-kendoui-together/)
+
+
+### React Router : A complete routing library for React.
+[Ryan Florence](https://github.com/rpflorence) share a project named [React Router](https://github.com/rackt/react-router) on Github who allow you to complete trace your library for React.
+
+>```
+Features
+
+- Nested views mapped to nested routes
+- Modular construction of route hierarchy
+- Fully asynchronous transition hooks
+- Transition abort / redirect / retry
+- Dynamic segments
+- Query parameters
+- Links with automatic .active class when their route is active
+- Multiple root routes
+- Hash or HTML5 history URLs
+```
+
+### Acorn JSX a 1.5-2x faster React.js JSX parser
+[Acorn JSX Edition](https://github.com/RReverser/acorn-jsx) by Ingvar Stepanyan is an experimental, alternative, faster React.js JSX parser by integrating pieces of code from official parser, modified to match Acorn’s parsing logic.
+
+### ReactScriptLoader
+Yariv Sadan created [ReactScriptLoader](https://github.com/yariv/ReactScriptLoader) to make it easier to load external scripts.
+
+>```javascript
+/** @jsx React.DOM */
+var Foo = React.createClass({
+    mixins: [ReactScriptLoaderMixin],
+    getInitialState: function() {
+        return {
+            scriptLoading: true,
+            scriptLoadError: false,
+        };
+    },
+    getScriptURL: function() {
+        return 'http://d3js.org/d3.v3.min.js';
+    },
+    onScriptLoaded: function() {
+        this.setState({scriptLoading: false});
+    },
+    onScriptError: function() {
+        this.setState({scriptLoading: false, scriptLoadError: true});
+    },
+    render: function() {
+        var message;
+        if (this.state.scriptLoading) {
+            message = 'loading script...';
+        } else if (this.state.scriptLoadError) {
+            message = 'loading failed';
+        } else {
+            message = 'loading succeeded';
+        }
+        return <span>{message}</span>;
+    }
+});
+```
+
+### ReactIntl Mixin by Yahoo
+Yahoo implements a [ReactJS component mixin](https://github.com/yahoo/react-intl) that adds these new methods to any React component.
+
+>```javascript
+var MyComponent = React.createClass({
+  mixins: [ReactIntlMixin],
+  render: function () {
+    return <div>
+      <p>A: {this.intlDate(1390518044403, { hour: 'numeric', minute: 'numeric' })}</p>
+      <p>B: {this.intlNumber(400, { style: 'percent' })}</p>
+    </div>;
+  }
+});
+```
+
+### Atom version 0.116.0 enable React editor component by default
+Atom.io recently release the new [React editor Component](http://blog.atom.io/2014/07/22/default-to-react-editor.html) using ReactJS.
+[![](http://blog.atom.io/img/posts/use-react-editor.png)](http://blog.atom.io/2014/07/22/default-to-react-editor.html)
+
+## Random Tweet
+<blockquote class="twitter-tweet" lang="en"><p>Testing newforms' upcoming locale release with <a href="https://twitter.com/reactjs">@reactjs</a> 0.11.x - I like it when little weird things get improved</p>&mdash; Jonny Buchanan (@jbscript) <a href="https://twitter.com/jbscript/status/493339826796908544/photo/1">July 20, 2014</a></blockquote>
