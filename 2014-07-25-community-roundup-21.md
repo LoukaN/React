@@ -4,6 +4,21 @@ layout: post
 author: Lou Husson
 ---
 
+## React Router : A complete routing library for React.
+[Ryan Florence](https://github.com/rpflorence) share a project named [React Router](https://github.com/rackt/react-router) on Github who allow you to complete trace your library for React.
+
+>```
+Features
+- Nested views mapped to nested routes
+- Modular construction of route hierarchy
+- Fully asynchronous transition hooks
+- Transition abort / redirect / retry
+- Dynamic segments
+- Query parameters
+- Links with automatic .active class when their route is active
+- Multiple root routes
+- Hash or HTML5 history URLs
+```
 
 ## Using React components as Backbone Views
 [Venmo](https://venmo.com/) have begun rewriting and redesigning his front-end. The best situation to try ReactJS !
@@ -20,33 +35,16 @@ var component = React.createClass({
 });
 ```
 
-### 5 Best Mobiles Web App Frameworks : React
-[Grgur Grisogono](https://github.com/grgur) write an article ["5 Best Mobile Web App Frameworks : React"](http://moduscreate.com/5-best-mobile-web-app-frameworks-reactjs/)
-This news describe with precision the ReactJS strenght's. 
-
-
 ## First Look: Getting Started with Facebook’s ReactJS Library
 [Kirill Buga](http://modernweb.com/authors/kirill-buga/) share about his [experience](http://modernweb.com/2014/07/23/getting-started-reactjs/?utm_content=bufferac1a8&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer) getting started with the ReactJS Library from Facebook.
 ReactJS will definitely change your perception of Front-end implementation.
 
 [![](/img/reactimg21.png)](http://www.ifandelse.com/using-reactjs-and-kendoui-together/)
 
+## React Draggable
+[Matt Zabriskie](https://github.com/mzabriskie) release a [project](https://github.com/mzabriskie/react-draggable) to turn your react component draggable.
 
-## React Router : A complete routing library for React.
-[Ryan Florence](https://github.com/rpflorence) share a project named [React Router](https://github.com/rackt/react-router) on Github who allow you to complete trace your library for React.
-
->```
-Features
-- Nested views mapped to nested routes
-- Modular construction of route hierarchy
-- Fully asynchronous transition hooks
-- Transition abort / redirect / retry
-- Dynamic segments
-- Query parameters
-- Links with automatic .active class when their route is active
-- Multiple root routes
-- Hash or HTML5 history URLs
-```
+[![](/img/draggable.png)](http://mzabriskie.github.io/react-draggable/example/)
 
 ## What's ReactJS ?
 [Craig McKeachie](http://www.funnyant.com/reactjs-what-is-it/) author of [Javascript Framework Guide](http://www.funnyant.com/javascript-framework-guide/) write an excellent news named "What is React.js? Another Template Library? Like Web Components? A Framework like AngularJS?". I thynk everybody who's starting React have to read it !
@@ -91,10 +89,9 @@ var Login = React.createClass({
 });
 ```
 
-## React Draggable
-[Matt Zabriskie](https://github.com/mzabriskie) release a [project](https://github.com/mzabriskie/react-draggable) to turn your react component draggable.
-
-[![](/img/draggable.png)](http://mzabriskie.github.io/react-draggable/example/)
+### 5 Best Mobiles Web App Frameworks : React
+[Grgur Grisogono](https://github.com/grgur) write an article ["5 Best Mobile Web App Frameworks : React"](http://moduscreate.com/5-best-mobile-web-app-frameworks-reactjs/)
+This news describe with precision the ReactJS strenght's. 
 
 ## Random Tweet
 <blockquote class="twitter-tweet" lang="en"><p>Testing newforms' upcoming locale release with <a href="https://twitter.com/reactjs">@reactjs</a> 0.11.x - I like it when little weird things get improved</p>&mdash; Jonny Buchanan (@jbscript) <a href="https://twitter.com/jbscript/status/493339826796908544/photo/1">July 20, 2014</a></blockquote>
