@@ -36,7 +36,7 @@ ReactJS will definitely change your perception of Front-end implementation.
 [Ryan Florence](https://github.com/rpflorence) share a project named [React Router](https://github.com/rackt/react-router) on Github who allow you to complete trace your library for React.
 
 >```
-#Features
+Features
 - Nested views mapped to nested routes
 - Modular construction of route hierarchy
 - Fully asynchronous transition hooks
