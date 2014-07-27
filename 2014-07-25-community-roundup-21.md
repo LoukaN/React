@@ -18,6 +18,8 @@ var component = React.createClass({
 });
 ```
 
+### 5 Best Mobiles Web App Frameworks : React
+
 ### First Look: Getting Started with Facebook’s ReactJS Library
 [Kirill Buga](http://modernweb.com/authors/kirill-buga/) share about his [experience](http://modernweb.com/2014/07/23/getting-started-reactjs/?utm_content=bufferac1a8&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer) getting started with the ReactJS Library from Facebook.
 ReactJS will definitely change your perception of Front-end implementation
@@ -42,63 +44,53 @@ Features
 - Hash or HTML5 history URLs
 ```
 
-### Acorn JSX a 1.5-2x faster React.js JSX parser
-[Acorn JSX Edition](https://github.com/RReverser/acorn-jsx) by Ingvar Stepanyan is an experimental, alternative, faster React.js JSX parser by integrating pieces of code from official parser, modified to match Acorn’s parsing logic.
+### What's ReactJS ?
+[Craig McKeachie](http://www.funnyant.com/reactjs-what-is-it/) author of [Javascript Framework Guide](http://www.funnyant.com/javascript-framework-guide/) write an excellent news named "What is React.js? Another Template Library? Like Web Components? A Framework like AngularJS?". I thynk everybody who's starting React have to read it !
 
-### ReactScriptLoader
-Yariv Sadan created [ReactScriptLoader](https://github.com/yariv/ReactScriptLoader) to make it easier to load external scripts.
+### React Dispatcher
+The dispatcher is used to control the flow of actions through your application. That's what you can find in this [project](https://github.com/rackt/react-dispatcher) started by [Michael Jackson](https://github.com/mjackson). So, let's Beat it !
 
 >```javascript
-/** @jsx React.DOM */
-var Foo = React.createClass({
-    mixins: [ReactScriptLoaderMixin],
-    getInitialState: function() {
-        return {
-            scriptLoading: true,
-            scriptLoadError: false,
-        };
-    },
-    getScriptURL: function() {
-        return 'http://d3js.org/d3.v3.min.js';
-    },
-    onScriptLoaded: function() {
-        this.setState({scriptLoading: false});
-    },
-    onScriptError: function() {
-        this.setState({scriptLoading: false, scriptLoadError: true});
-    },
-    render: function() {
-        var message;
-        if (this.state.scriptLoading) {
-            message = 'loading script...';
-        } else if (this.state.scriptLoadError) {
-            message = 'loading failed';
-        } else {
-            message = 'loading succeeded';
-        }
-        return <span>{message}</span>;
-    }
+Dispatcher.registerHandler(function (actionName, actionArgs) {
+  if (actionName === 'login') {
+    var username = actionArgs[0], password = actionArgs[1];
+    return checkCredentials(username, password);
+  }
 });
-```
-
-### ReactIntl Mixin by Yahoo
-Yahoo implements a [ReactJS component mixin](https://github.com/yahoo/react-intl) that adds these new methods to any React component.
-
->```javascript
-var MyComponent = React.createClass({
-  mixins: [ReactIntlMixin],
+var Login = React.createClass({
+  mixins: [ Dispatcher.ActionSender ],
+  getInitialState: function () {
+    return { errorMessage: '' };
+  },
+  handleLoginError: function (error) {
+    this.setState({ errorMessage: error.message });
+  },
+  handleSubmit: function () {
+    var username = this.refs.username.getDOMNode().value;
+    var password = this.refs.password.getDOMNode().value;
+    this.sendAction('login', username, password).then(function () {
+      Router.transitionTo('/home/' + username);
+    }, this.handleLoginError);
+  },
   render: function () {
-    return <div>
-      <p>A: {this.intlDate(1390518044403, { hour: 'numeric', minute: 'numeric' })}</p>
-      <p>B: {this.intlNumber(400, { style: 'percent' })}</p>
-    </div>;
+    var error;
+    if (this.state.errorMessage)
+      error = <div className="error">{this.state.errorMessage}</div>;
+    return (
+      {error}
+      <form onSubmit={this.handleSubmit}>
+        <input ref="username" type="text" name="username"/>
+        <input ref="password" type="password" name="password"/>
+      </form>
+    );
   }
 });
 ```
 
-### Atom version 0.116.0 enable React editor component by default
-Atom.io recently release the new [React editor Component](http://blog.atom.io/2014/07/22/default-to-react-editor.html) using ReactJS.
-[![](http://blog.atom.io/img/posts/use-react-editor.png)](http://blog.atom.io/2014/07/22/default-to-react-editor.html)
+### React Draggable
+[Matt Zabriskie](https://github.com/mzabriskie) release a [project](https://github.com/mzabriskie/react-draggable) to turn your react component draggable.
+
+[![](/img/draggable.png)](http://mzabriskie.github.io/react-draggable/example/)
 
 ## Random Tweet
 <blockquote class="twitter-tweet" lang="en"><p>Testing newforms' upcoming locale release with <a href="https://twitter.com/reactjs">@reactjs</a> 0.11.x - I like it when little weird things get improved</p>&mdash; Jonny Buchanan (@jbscript) <a href="https://twitter.com/jbscript/status/493339826796908544/photo/1">July 20, 2014</a></blockquote>
