@@ -47,7 +47,7 @@ ReactJS will definitely change your perception of Front-end implementation.
 [![](/img/draggable.png)](http://mzabriskie.github.io/react-draggable/example/)
 
 ## What's ReactJS ?
-[Craig McKeachie](http://www.funnyant.com/reactjs-what-is-it/) author of [Javascript Framework Guide](http://www.funnyant.com/javascript-framework-guide/) write an excellent news named "What is React.js? Another Template Library? Like Web Components? A Framework like AngularJS?". I thynk everybody who's starting React have to read it !
+[Craig McKeachie](http://www.funnyant.com/author/admin/) author of [Javascript Framework Guide](http://www.funnyant.com/javascript-framework-guide/) write an excellent news named ["What is React.js? Another Template Library?](http://www.funnyant.com/reactjs-what-is-it/) Like Web Components? A Framework like AngularJS?". I think everybody who's starting React have to read it !
 
 ## React Dispatcher
 The dispatcher is used to control the flow of actions through your application. That's what you can find in this [project](https://github.com/rackt/react-dispatcher) started by [Michael Jackson](https://github.com/mjackson). So, let's Beat it !
