@@ -24,16 +24,23 @@ Features
 ## Going big with React
 [Areeb Malik](https://skillsmatter.com/skillscasts/5429-going-big-with-react#video) investigate how React performs in a high stress situation, and how it has helped our team build safe code on a massive scale.
 
-[![](/img/skillmatter.jpg)](https://skillsmatter.com/skillscasts/5429-going-big-with-react#video)
+[![](/img/skillsmatter.jpg)](https://skillsmatter.com/skillscasts/5429-going-big-with-react#video)
 
 ## Building UIs with ReactJS
 Tutorial with Jacob Rios about buidling user interfaces with ReactJS.
 <iframe width="650" height="315" src="//www.youtube.com/embed/lAn7GVoGlKU" frameborder="0" allowfullscreen></iframe>
 
+### Airbnb launched first user-facing ReactJS feature to production
+
+[![](/img/airbnb.png)](https://www.airbnb.com/resolutions)
+
 ## React Draggable
 [Matt Zabriskie](https://github.com/mzabriskie) release a [project](https://github.com/mzabriskie/react-draggable) to turn your react component draggable.
 
 [![](/img/draggable.png)](http://mzabriskie.github.io/react-draggable/example/)
+
+### HTML Parser2 React
+[Jason Brown](https://github.com/browniefed) 
 
 ## Referencing Dynamic Children
 Very good news by Matt Zabriskie about [referencing dynamic children](http://www.mattzabriskie.com/blog/react-referencing-dynamic-children).
@@ -49,11 +56,6 @@ var App = React.createClass({
     }
 });
 ```
-
-### Airbnb launched first user-facing ReactJS feature to production
-
-[![](/img/airbnb.png)](https://www.airbnb.com/resolutions)
-  
 
 ## First Look: Getting Started with Facebook’s ReactJS Library
 [Kirill Buga](http://modernweb.com/authors/kirill-buga/) share about his [experience](http://modernweb.com/2014/07/23/getting-started-reactjs/?utm_content=bufferac1a8&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer) getting started with the ReactJS Library from Facebook.
