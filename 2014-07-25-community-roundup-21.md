@@ -25,14 +25,14 @@ var component = React.createClass({
 This news describe with precision the ReactJS strenght's. 
 
 
-### First Look: Getting Started with Facebook’s ReactJS Library
+## First Look: Getting Started with Facebook’s ReactJS Library
 [Kirill Buga](http://modernweb.com/authors/kirill-buga/) share about his [experience](http://modernweb.com/2014/07/23/getting-started-reactjs/?utm_content=bufferac1a8&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer) getting started with the ReactJS Library from Facebook.
 ReactJS will definitely change your perception of Front-end implementation.
 
 [![](/img/reactimg21.png)](http://www.ifandelse.com/using-reactjs-and-kendoui-together/)
 
 
-### React Router : A complete routing library for React.
+## React Router : A complete routing library for React.
 [Ryan Florence](https://github.com/rpflorence) share a project named [React Router](https://github.com/rackt/react-router) on Github who allow you to complete trace your library for React.
 
 >```
@@ -48,10 +48,10 @@ Features
 - Hash or HTML5 history URLs
 ```
 
-### What's ReactJS ?
+## What's ReactJS ?
 [Craig McKeachie](http://www.funnyant.com/reactjs-what-is-it/) author of [Javascript Framework Guide](http://www.funnyant.com/javascript-framework-guide/) write an excellent news named "What is React.js? Another Template Library? Like Web Components? A Framework like AngularJS?". I thynk everybody who's starting React have to read it !
 
-### React Dispatcher
+## React Dispatcher
 The dispatcher is used to control the flow of actions through your application. That's what you can find in this [project](https://github.com/rackt/react-dispatcher) started by [Michael Jackson](https://github.com/mjackson). So, let's Beat it !
 
 >```javascript
@@ -91,7 +91,7 @@ var Login = React.createClass({
 });
 ```
 
-### React Draggable
+## React Draggable
 [Matt Zabriskie](https://github.com/mzabriskie) release a [project](https://github.com/mzabriskie/react-draggable) to turn your react component draggable.
 
 [![](/img/draggable.png)](http://mzabriskie.github.io/react-draggable/example/)
