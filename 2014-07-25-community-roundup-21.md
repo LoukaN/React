@@ -23,7 +23,7 @@ Features
 
 ## Building UIs with ReactJS
 Tutorial with Jacob Rios about buidling user interfaces with ReactJS.
-<iframe width="560" height="315" src="//www.youtube.com/embed/lAn7GVoGlKU" frameborder="0" allowfullscreen></iframe>
+<iframe width="650" height="315" src="//www.youtube.com/embed/lAn7GVoGlKU" frameborder="0" allowfullscreen></iframe>
 
 ## Using React components as Backbone Views
 [Venmo](https://venmo.com/) have begun rewriting and redesigning his front-end. The best situation to try ReactJS :)
@@ -89,7 +89,7 @@ var Login = React.createClass({
 [Kirill Buga](http://modernweb.com/authors/kirill-buga/) share about his [experience](http://modernweb.com/2014/07/23/getting-started-reactjs/?utm_content=bufferac1a8&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer) getting started with the ReactJS Library from Facebook.
 ReactJS will definitely change your perception of Front-end implementation.
 
-[![](/img/reactimg211.png)](http://modernweb.com/2014/07/23/getting-started-reactjs/)
+[<img src="http://modernweb.com/wp-content/uploads/2014/07/Screen-Shot-2014-07-22-at-15.30.40.png" style="width: 100%;" />](http://modernweb.com/2014/07/23/getting-started-reactjs/)
 
 ## What's ReactJS ?
 [Craig McKeachie](http://www.funnyant.com/author/admin/) author of [Javascript Framework Guide](http://www.funnyant.com/javascript-framework-guide/) write an excellent news named ["What is React.js? Another Template Library?](http://www.funnyant.com/reactjs-what-is-it/) Like Web Components? A Framework like AngularJS?". I think everybody who's starting React have to read it !
