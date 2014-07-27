@@ -26,7 +26,7 @@ Tutorial with Jacob Rios about buidling user interfaces with ReactJS.
 <iframe width="560" height="315" src="//www.youtube.com/embed/lAn7GVoGlKU" frameborder="0" allowfullscreen></iframe>
 
 ## Using React components as Backbone Views
-[Venmo](https://venmo.com/) have begun rewriting and redesigning his front-end. The best situation to try ReactJS !
+[Venmo](https://venmo.com/) have begun rewriting and redesigning his front-end. The best situation to try ReactJS :)
 [Thomas Boyt](http://www.thomasboyt.com/) write a news [Using React components as Backbone View](http://www.thomasboyt.com/2013/12/17/using-reactjs-as-a-backbone-view.html).
 
 > "The most unique and most controversial part of React is its use of JSX"
