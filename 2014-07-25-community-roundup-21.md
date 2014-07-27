@@ -91,8 +91,8 @@ var Login = React.createClass({
 ```
 
 ### 5 Best Mobiles Web App Frameworks : React
-[Grgur Grisogono](https://github.com/grgur) write an article ["5 Best Mobile Web App Frameworks : React"](http://moduscreate.com/5-best-mobile-web-app-frameworks-reactjs/)
-This news describe with precision the ReactJS strenght's. 
+[Grgur Grisogono](https://github.com/grgur) write an article ["5 Best Mobile Web App Frameworks : React"](http://moduscreate.com/5-best-mobile-web-app-frameworks-reactjs/).
+This news describe with precision the ReactJS strenght's.
 
 ## Random Tweet
 <blockquote class="twitter-tweet" lang="en"><p>Testing newforms' upcoming locale release with <a href="https://twitter.com/reactjs">@reactjs</a> 0.11.x - I like it when little weird things get improved</p>&mdash; Jonny Buchanan (@jbscript) <a href="https://twitter.com/jbscript/status/493339826796908544/photo/1">July 20, 2014</a></blockquote>
