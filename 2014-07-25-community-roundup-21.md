@@ -40,46 +40,6 @@ var component = React.createClass({
 });
 ```
 
-## React Dispatcher
-The dispatcher is used to control the flow of actions through your application. That's what you can find in this [project](https://github.com/rackt/react-dispatcher) started by [Michael Jackson](https://github.com/mjackson). So, let's Beat it !
-
->```javascript
-Dispatcher.registerHandler(function (actionName, actionArgs) {
-  if (actionName === 'login') {
-    var username = actionArgs[0], password = actionArgs[1];
-    return checkCredentials(username, password);
-  }
-});
-var Login = React.createClass({
-  mixins: [ Dispatcher.ActionSender ],
-  getInitialState: function () {
-    return { errorMessage: '' };
-  },
-  handleLoginError: function (error) {
-    this.setState({ errorMessage: error.message });
-  },
-  handleSubmit: function () {
-    var username = this.refs.username.getDOMNode().value;
-    var password = this.refs.password.getDOMNode().value;
-    this.sendAction('login', username, password).then(function () {
-      Router.transitionTo('/home/' + username);
-    }, this.handleLoginError);
-  },
-  render: function () {
-    var error;
-    if (this.state.errorMessage)
-      error = <div className="error">{this.state.errorMessage}</div>;
-    return (
-      {error}
-      <form onSubmit={this.handleSubmit}>
-        <input ref="username" type="text" name="username"/>
-        <input ref="password" type="password" name="password"/>
-      </form>
-    );
-  }
-});
-```
-
 ## React Draggable
 [Matt Zabriskie](https://github.com/mzabriskie) release a [project](https://github.com/mzabriskie/react-draggable) to turn your react component draggable.
 
