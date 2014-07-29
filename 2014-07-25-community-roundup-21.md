@@ -57,6 +57,9 @@ var App = React.createClass({
 });
 ```
 
+## A Few more words on Acorn-JSX
+Ingvar Stepanyan talking about Acorn JSX in the last Roundup, now Ingvar finish the developpment of [complete ES6 support](http://rreverser.com/a-few-more-words-on-acorn-jsx/)
+
 ## First Look: Getting Started with Facebook’s ReactJS Library
 [Kirill Buga](http://modernweb.com/authors/kirill-buga/) share about his [experience](http://modernweb.com/2014/07/23/getting-started-reactjs/?utm_content=bufferac1a8&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer) getting started with the ReactJS Library from Facebook.
 ReactJS will definitely change your perception of Front-end implementation.
