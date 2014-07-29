@@ -30,7 +30,7 @@ Features
 Tutorial with Jacob Rios about buidling user interfaces with ReactJS.
 <iframe width="650" height="315" src="//www.youtube.com/embed/lAn7GVoGlKU" frameborder="0" allowfullscreen></iframe>
 
-### Airbnb launched first user-facing ReactJS feature to production
+## Airbnb launched first user-facing ReactJS feature to production
 
 [![](/img/airbnb.png)](https://www.airbnb.com/resolutions)
 
@@ -39,7 +39,7 @@ Tutorial with Jacob Rios about buidling user interfaces with ReactJS.
 
 [![](/img/draggable.png)](http://mzabriskie.github.io/react-draggable/example/)
 
-### HTML Parser2 React
+## HTML Parser2 React
 [Jason Brown](https://github.com/browniefed) 
 
 ## Referencing Dynamic Children
@@ -69,7 +69,7 @@ ReactJS will definitely change your perception of Front-end implementation.
 ## What's ReactJS ?
 [Craig McKeachie](http://www.funnyant.com/author/admin/) author of [Javascript Framework Guide](http://www.funnyant.com/javascript-framework-guide/) write an excellent news named ["What is React.js? Another Template Library?](http://www.funnyant.com/reactjs-what-is-it/) Like Web Components? A Framework like AngularJS?". I think everybody who's starting React have to read it !
 
-### 5 Best Mobiles Web App Frameworks : React
+## 5 Best Mobiles Web App Frameworks : React
 [Grgur Grisogono](https://github.com/grgur) write an article ["5 Best Mobile Web App Frameworks : React"](http://moduscreate.com/5-best-mobile-web-app-frameworks-reactjs/).
 This news describe with precision the ReactJS strenght's.
 
