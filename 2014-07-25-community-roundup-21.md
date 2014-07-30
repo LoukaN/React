@@ -30,6 +30,17 @@ Features
 Tutorial with Jacob Rios about buidling user interfaces with ReactJS.
 <iframe width="650" height="315" src="//www.youtube.com/embed/lAn7GVoGlKU" frameborder="0" allowfullscreen></iframe>
 
+## Compiling JSX with Sweet.js using Readtables
+[JSX](http://jlongster.com/Compiling-JSX-with-Sweet.js-using-Readtables) is a Facebook project that embeds an XML-like language in JavaScript.
+
+```javascript
+var div = <div>
+  <h1>{ header }</h1>
+</div>;
+> This is transformed into:
+var div = React.DOM.div(null, React.DOM.h1(null, header));
+```
+
 ## Airbnb launched first user-facing ReactJS feature to production
 
 [![](/img/airbnb.png)](https://www.airbnb.com/resolutions)
