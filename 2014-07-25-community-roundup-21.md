@@ -57,14 +57,20 @@ If you haven't yet tried out React, Jacob Rios did a Hangout where he covers the
 
 
 ## Referencing Dynamic Children
-Very good news by Matt Zabriskie about [referencing dynamic children](http://www.mattzabriskie.com/blog/react-referencing-dynamic-children).
+Very good news by Matt Zabriskie about [referencing dynamic children](http://www.mattzabriskie.com/blog/react-referencing-dynamic-children). While Matt was developping react-tabs he had to reference dynamic children, that's why he wrote this article.
 
 ```javascript
 var App = React.createClass({
     render: function () {
+        var index = 0,
+            children = React.Children.map(this.props.children, function (child) {
+            return React.addons.cloneWithProps(child, {
+                ref: 'child-' + (index++)
+            });
+        });
         return (
             <div>
-                {this.props.children}
+                {children}
             </div>
         );
     }
