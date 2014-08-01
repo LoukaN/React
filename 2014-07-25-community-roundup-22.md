@@ -28,22 +28,11 @@ Mikael Brassman shown [some examples](http://spoike.ghost.io/deconstructing-reac
 <iframe allowfullscreen="" data-progress="true" frameborder="0" height="390" id="vimeo-player" mozallowfullscreen="" src="//player.vimeo.com/video/100245392?api=1&amp;title=0" webkitallowfullscreen="" width="640"></iframe>
 
 
-## What's React?
+## Blazing Fast HTML
 
-[Craig McKeachie](http://www.funnyant.com/author/admin/) author of [Javascript Framework Guide](http://www.funnyant.com/javascript-framework-guide/) wrote an excellent news named ["What is React.js? Another Template Library?](http://www.funnyant.com/reactjs-what-is-it/) 
+[Evan Czaplicki](http://evan.czaplicki.us) wrote an article about the new [elm-html](https://github.com/evancz/elm-html). It's a library which lets you use HTML and CSS directly in Elm.
 
->
-- Is React a Template Library?
-- Is React Similar to Web Components?
-- Are the Virtual DOM and Shadow DOM the Same?
-- Can React be used with other JavaScript MVC Frameworks?
-- Who Uses React.js?
-- Is React a Premature Optimization if you aren’t Facebook or Instagram?
-- Can I Work with Designers?
-- Will React Hurt my Search Engine Optimization (SEO)?
-- Is React a Framework for Building Applications or a Library with One Feature?
-- Are components a better way to build an application?
-- Can I build something complex with React?
+[![](/img/sampleResults.png)](http://elm-lang.org/diagrams/sampleResults.png)
 
 ## Referencing Dynamic Children
 
