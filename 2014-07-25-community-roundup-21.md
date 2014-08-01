@@ -44,7 +44,6 @@ Areeb Malik talks about using React at Facebook. "On paper, all those JS framewo
 - Are components a better way to build an application?
 - Can I build something complex with React?
 
-
 ## Referencing Dynamic Children
 
 Very good news by Matt Zabriskie about [referencing dynamic children](http://www.mattzabriskie.com/blog/react-referencing-dynamic-children). While Matt was developping react-tabs he had to reference dynamic children, that's why he wrote this article.
@@ -76,6 +75,13 @@ Have you ever wondered how JSX was implemented? James Long wrote a very instruct
 ster.com/Compiling-JSX-with-Sweet.js-using-Readtables"><img src="http://i.imgur.com/jlvJqx1.png" /></a>
 
 
+## First Look: Getting Started with Facebook React Library
+
+[Kirill Buga](http://modernweb.com/authors/kirill-buga/) wrote an article on Modern Web explaining how React is [different](http://modernweb.com/2014/07/23/getting-started-reactjs/) from traditional MVC used by most JavaScript applications 
+
+[![](/img/getstart.png)](http://modernweb.com/2014/07/23/getting-started-reactjs)
+
+
 ## React Draggable
 
 [Matt Zabriskie](https://github.com/mzabriskie) released a [project](https://github.com/mzabriskie/react-draggable) to turn your react component draggable.
@@ -98,13 +104,6 @@ var parsedComponent = reactParser(html, React);
 If you haven't yet tried out React, Jacob Rios did a Hangout where he covers the most important aspects and thankfully he recorded it!
 
 <iframe width="650" height="315" src="//www.youtube.com/embed/lAn7GVoGlKU" frameborder="0" allowfullscreen></iframe>
-
-
-## First Look: Getting Started with Facebook React Library
-
-[Kirill Buga](http://modernweb.com/authors/kirill-buga/) wrote an article on Modern Web explaining how React is [different](http://modernweb.com/2014/07/23/getting-started-reactjs/) from traditional MVC used by most JavaScript applications 
-
-[![](/img/getstart.png)](http://modernweb.com/2014/07/23/getting-started-reactjs)
 
 
 ## Random Tweets
