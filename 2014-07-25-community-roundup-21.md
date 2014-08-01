@@ -42,7 +42,8 @@ ster.com/Compiling-JSX-with-Sweet.js-using-Readtables"><img src="http://i.imgur.
 
 
 ## HTML Parser2 React
-[Jason Brown](https://github.com/browniefed) adapt HTML Parser to React usage with [htmlparser2-react](https://www.npmjs.org/package/htmlparser2-react), that's allow you to convert raw html to react DOM components.
+[Jason Brown](http://browniefed.com/) adapted htmlparser2 to React : [htmlparser2-react](https://www.npmjs.org/package/htmlparser2-react). That allows you to convert raw html to react DOM components.
+This is not the intended way to use React but can be useful as last resort if you have an existing piece of HTML.
 
 >````javascript
 var html = '<div data-id="1" class="hey this is a class" style="width:100%;height: 100%;"><article id="this-article"><p>hey this is a paragraph</p><div><ul><li>1</li><li>2</li><li>3</li></ul></div></article></div>';
