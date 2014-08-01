@@ -27,36 +27,26 @@ Areeb Malik talks about using React at Facebook. "On paper, all those JS framewo
 <iframe allowfullscreen="" data-progress="true" frameborder="0" height="390" id="vimeo-player" mozallowfullscreen="" src="//player.vimeo.com/video/100245392?api=1&amp;title=0" webkitallowfullscreen="" width="640"></iframe>
 
 
-## JSX with Sweet.js using Readtables
+## What's React ?
 
-Have you ever wondered how JSX was implemented? James Long wrote a very instructive blog post that explains how to [compile JSX with Sweet.js using Readtables](http://jlongster.com/Compiling-JSX-with-Sweet.js-using-Readtables).
+[Craig McKeachie](http://www.funnyant.com/author/admin/) author of [Javascript Framework Guide](http://www.funnyant.com/javascript-framework-guide/) wrote an excellent news named ["What is React.js? Another Template Library?](http://www.funnyant.com/reactjs-what-is-it/) 
 
-<a href="http://jlong\
-ster.com/Compiling-JSX-with-Sweet.js-using-Readtables"><img src="http://i.imgur.com/jlvJqx1.png" /></a>
-
-
-## React Draggable
-[Matt Zabriskie](https://github.com/mzabriskie) released a [project](https://github.com/mzabriskie/react-draggable) to turn your react component draggable.
-
-[![](http://i.imgur.com/EiWPhGP.png)](http://mzabriskie.github.io/react-draggable/example/)
-
-
-## HTML Parser2 React
-[Jason Brown](http://browniefed.github.io/) adapted htmlparser2 to React : [htmlparser2-react](https://www.npmjs.org/package/htmlparser2-react). That allows you to convert raw html to react DOM components.
-This is not the intended way to use React but can be useful as last resort if you have an existing piece of HTML.
-
-```javascript
-var html = '<div data-id="1" class="hey this is a class" style="width:100%;height: 100%;"><article id="this-article"><p>hey this is a paragraph</p><div><ul><li>1</li><li>2</li><li>3</li></ul></div></article></div>';
-var parsedComponent = reactParser(html, React);
-```
-
-## Building UIs with React
-If you haven't yet tried out React, Jacob Rios did a Hangout where he covers the most important aspects and thankfully he recorded it!
-
-<iframe width="650" height="315" src="//www.youtube.com/embed/lAn7GVoGlKU" frameborder="0" allowfullscreen></iframe>
+>
+- Is React a Template Library?
+- Is React Similar to Web Components?
+- Are the Virtual DOM and Shadow DOM the Same?
+- Can React be used with other JavaScript MVC Frameworks?
+- Who Uses React.js?
+- Is React a Premature Optimization if you aren’t Facebook or Instagram?
+- Can I Work with Designers?
+- Will React Hurt my Search Engine Optimization (SEO)?
+- Is React a Framework for Building Applications or a Library with One Feature?
+- Are components a better way to build an application?
+- Can I build something complex with React?
 
 
 ## Referencing Dynamic Children
+
 Very good news by Matt Zabriskie about [referencing dynamic children](http://www.mattzabriskie.com/blog/react-referencing-dynamic-children). While Matt was developping react-tabs he had to reference dynamic children, that's why he wrote this article.
 
 ```javascript
@@ -78,27 +68,43 @@ var App = React.createClass({
 ```
 
 
+## JSX with Sweet.js using Readtables
+
+Have you ever wondered how JSX was implemented? James Long wrote a very instructive blog post that explains how to [compile JSX with Sweet.js using Readtables](http://jlongster.com/Compiling-JSX-with-Sweet.js-using-Readtables).
+
+<a href="http://jlong\
+ster.com/Compiling-JSX-with-Sweet.js-using-Readtables"><img src="http://i.imgur.com/jlvJqx1.png" /></a>
+
+
+## React Draggable
+
+[Matt Zabriskie](https://github.com/mzabriskie) released a [project](https://github.com/mzabriskie/react-draggable) to turn your react component draggable.
+
+[![](http://i.imgur.com/EiWPhGP.png)](http://mzabriskie.github.io/react-draggable/example/)
+
+
+## HTML Parser2 React
+
+[Jason Brown](http://browniefed.github.io/) adapted htmlparser2 to React : [htmlparser2-react](https://www.npmjs.org/package/htmlparser2-react). That allows you to convert raw html to react DOM components.
+This is not the intended way to use React but can be useful as last resort if you have an existing piece of HTML.
+
+```javascript
+var html = '<div data-id="1" class="hey this is a class" style="width:100%;height: 100%;"><article id="this-article"><p>hey this is a paragraph</p><div><ul><li>1</li><li>2</li><li>3</li></ul></div></article></div>';
+var parsedComponent = reactParser(html, React);
+```
+
+## Building UIs with React
+
+If you haven't yet tried out React, Jacob Rios did a Hangout where he covers the most important aspects and thankfully he recorded it!
+
+<iframe width="650" height="315" src="//www.youtube.com/embed/lAn7GVoGlKU" frameborder="0" allowfullscreen></iframe>
+
+
 ## First Look: Getting Started with Facebook React Library
+
 [Kirill Buga](http://modernweb.com/authors/kirill-buga/) wrote an article on Modern Web explaining how React is [different](http://modernweb.com/2014/07/23/getting-started-reactjs/) from traditional MVC used by most JavaScript applications 
 
 [![](/img/getstart.png)](http://modernweb.com/2014/07/23/getting-started-reactjs)
-
-
-## What's React ?
-[Craig McKeachie](http://www.funnyant.com/author/admin/) author of [Javascript Framework Guide](http://www.funnyant.com/javascript-framework-guide/) wrote an excellent news named ["What is React.js? Another Template Library?](http://www.funnyant.com/reactjs-what-is-it/) 
-
->
-- Is React a Template Library?
-- Is React Similar to Web Components?
-- Are the Virtual DOM and Shadow DOM the Same?
-- Can React be used with other JavaScript MVC Frameworks?
-- Who Uses React.js?
-- Is React a Premature Optimization if you aren’t Facebook or Instagram?
-- Can I Work with Designers?
-- Will React Hurt my Search Engine Optimization (SEO)?
-- Is React a Framework for Building Applications or a Library with One Feature?
-- Are components a better way to build an application?
-- Can I build something complex with React?
 
 
 ## Random Tweets
