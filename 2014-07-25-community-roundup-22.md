@@ -46,6 +46,25 @@ Mikael Brassman shown [some examples](http://spoike.ghost.io/deconstructing-reac
 <iframe width="560" height="315" src="//www.youtube.com/embed/5yvFLrt7N8M" frameborder="0" allowfullscreen></iframe>
 
 
+## Reusable components by Khan Academy
+[Khan Academy](https://www.khanacademy.org/) wrote a pretty cool [collection](http://khan.github.io/react-components/) of some of the most reusable React component built at Khan Academy.
+
+> 
+- Button Group
+- $_
+- Layered Component Mixin
+- Set Interval Mixin
+- TimeAgo
+- Blur Input
+- TeX
+- Tooltip
+- Info-Tip
+- Sortable
+- Drag Target
+- Timeout Transition Group
+- Backbone Mixin
+- Window Drag
+
 
 ## Using Flux to Build UIs with React
 
