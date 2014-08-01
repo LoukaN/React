@@ -75,7 +75,7 @@ Have you ever wondered how JSX was implemented? James Long wrote a very instruct
 ster.com/Compiling-JSX-with-Sweet.js-using-Readtables"><img src="http://i.imgur.com/jlvJqx1.png" /></a>
 
 
-## First Look: Getting Started with Facebook React Library
+## First Look: Getting Started with React
 
 [Kirill Buga](http://modernweb.com/authors/kirill-buga/) wrote an article on Modern Web explaining how React is [different](http://modernweb.com/2014/07/23/getting-started-reactjs/) from traditional MVC used by most JavaScript applications 
 
