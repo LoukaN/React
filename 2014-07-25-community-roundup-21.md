@@ -42,20 +42,16 @@ ster.com/Compiling-JSX-with-Sweet.js-using-Readtables"><img src="http://i.imgur.
 
 
 ## HTML Parser2 React
-
-[Jason Brown](https://github.com/browniefed) 
+[Jason Brown](https://github.com/browniefed) adapt HTML Parser to React usage with [htmlparser2-react](https://www.npmjs.org/package/htmlparser2-react), that's allow you to convert raw html to react DOM components.
 
 
 ## Building UIs with React
-
 If you haven't yet tried out React, Jacob Rios did a Hangout where he covers the most important aspects and thankfully he recorded it!
 
 <iframe width="650" height="315" src="//www.youtube.com/embed/lAn7GVoGlKU" frameborder="0" allowfullscreen></iframe>
 
 
-
 ## Referencing Dynamic Children
-
 Very good news by Matt Zabriskie about [referencing dynamic children](http://www.mattzabriskie.com/blog/react-referencing-dynamic-children).
 
 >```javascript
@@ -70,8 +66,8 @@ var App = React.createClass({
 });
 ```
 
-## First Look: Getting Started with Facebookâ€™s ReactJS Library
 
+## First Look: Getting Started with Facebookâ€™s ReactJS Library
 [Kirill Buga](http://modernweb.com/authors/kirill-buga/) shared about his [experience](http://modernweb.com/2014/07/23/getting-started-reactjs/) getting started with the ReactJS Library from Facebook.
 ReactJS will definitely change your perception of Front-end implementation.
 
@@ -79,17 +75,14 @@ ReactJS will definitely change your perception of Front-end implementation.
 
 
 ## What's React ?
-
 [Craig McKeachie](http://www.funnyant.com/author/admin/) author of [Javascript Framework Guide](http://www.funnyant.com/javascript-framework-guide/) wrote an excellent news named ["What is React.js? Another Template Library?](http://www.funnyant.com/reactjs-what-is-it/) Like Web Components? A Framework like AngularJS?". I think everybody who's starting React have to read it !
 
 
 ## 5 Best Mobiles Web App Frameworks
-
 [Grgur Grisogono](https://github.com/grgur) write an article ["5 Best Mobile Web App Frameworks : React"](http://moduscreate.com/5-best-mobile-web-app-frameworks-reactjs/).
 This news describe with precision the ReactJS strenght's.
 
 
 ## Random Tweet
-
 <blockquote class="twitter-tweet" lang="en"><p>We shipped reddit&#39;s first production <a href="https://twitter.com/reactjs">@reactjs</a> code last week, our checkout process.&#10;&#10;<a href="https://t.co/KUInwsCmAF">https://t.co/KUInwsCmAF</a></p>&mdash; Brian Holt (@holtbt) <a href="https://twitter.com/holtbt/statuses/493852312604254208">July 28, 2014</a></blockquote>
 <blockquote class="twitter-tweet" lang="en"><p>.<a href="https://twitter.com/AirbnbNerds">@AirbnbNerds</a> just launched our first user-facing React.js feature to production! We love it so far. <a href="https://t.co/KtyudemcIW">https://t.co/KtyudemcIW</a> /<a href="https://twitter.com/floydophone">@floydophone</a></p>&mdash; spikebrehm (@spikebrehm) <a href="https://twitter.com/spikebrehm/statuses/491645223643013121">July 22, 2014</a></blockquote>
