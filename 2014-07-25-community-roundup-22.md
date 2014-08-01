@@ -21,6 +21,7 @@ ToggleButton = React.createClass
       onClick: @toggle   
 ```
 
+
 ## Deconstructing ReactJS's Flux
 
 Mikael Brassman shown [some examples](http://spoike.ghost.io/deconstructing-reactjss-flux/) of the single directional data-flow architecture by comparing React reference implementation of Flux and using a library he wrote called [Reflux](https://github.com/spoike/reflux).
@@ -34,66 +35,22 @@ Mikael Brassman shown [some examples](http://spoike.ghost.io/deconstructing-reac
 
 [![](/img/sampleResults.png)](http://elm-lang.org/diagrams/sampleResults.png)
 
-## Referencing Dynamic Children
+## React : Components Tutorial
 
-While Matt was working  on [react-tabs](https://www.npmjs.org/package/react-tabs) he discovered how to use React.Children.map and React.addons.cloneWithProps in order to [referencing dynamic children](http://www.mattzabriskie.com/blog/react-referencing-dynamic-children).
+[Harris Brakmic](https://twitter.com/brakmic/status/490910003650633728) shared 2 youtube video from [Joe Maddalone](http://www.joemaddalone.com/)
 
-```javascript
-var App = React.createClass({
-    render: function () {
-        var index = 0,
-            children = React.Children.map(this.props.children, function (child) {
-            return React.addons.cloneWithProps(child, {
-                ref: 'child-' + (index++)
-            });
-        });
-        return (
-            <div>
-                {children}
-            </div>
-        );
-    }
-});
-```
+- Part 1 : how to create and nest React Components
+<iframe width="560" height="315" src="//www.youtube.com/embed/rFvZydtmsxM" frameborder="0" allowfullscreen></iframe>
+
+- Part 2 : Dynamic React interactive components
+<iframe width="560" height="315" src="//www.youtube.com/embed/5yvFLrt7N8M" frameborder="0" allowfullscreen></iframe>
 
 
-## JSX with Sweet.js using Readtables
 
-Have you ever wondered how JSX was implemented? James Long wrote a very instructive blog post that explains how to [compile JSX with Sweet.js using Readtables](http://jlongster.com/Compiling-JSX-with-Sweet.js-using-Readtables).
+## Using Flux to Build UIs with React
 
-<a href="http://jlong\
-ster.com/Compiling-JSX-with-Sweet.js-using-Readtables"><img src="http://i.imgur.com/jlvJqx1.png" /></a>
+If you haven't yet tried out React, [Gary Chambers](https://twitter.com/garychambers108) did a [guide](https://medium.com/@garychambers108/flux-in-practice-ec08daa9041a) to building UIs with React on [Flux](http://facebook.github.io/flux/).
 
-
-## First Look: Getting Started with React
-
-[Kirill Buga](http://modernweb.com/authors/kirill-buga/) wrote an article on Modern Web explaining how React is [different](http://modernweb.com/2014/07/23/getting-started-reactjs/) from traditional MVC used by most JavaScript applications 
-
-[![](/img/getstart.png)](http://modernweb.com/2014/07/23/getting-started-reactjs)
-
-
-## React Draggable
-
-[Matt Zabriskie](https://github.com/mzabriskie) released a [project](https://github.com/mzabriskie/react-draggable) to turn your react component draggable.
-
-[![](http://i.imgur.com/EiWPhGP.png)](http://mzabriskie.github.io/react-draggable/example/)
-
-
-## HTML Parser2 React
-
-[Jason Brown](http://browniefed.github.io/) adapted htmlparser2 to React : [htmlparser2-react](https://www.npmjs.org/package/htmlparser2-react). That allows you to convert raw html to react DOM components.
-This is not the intended way to use React but can be useful as last resort if you have an existing piece of HTML.
-
-```javascript
-var html = '<div data-id="1" class="hey this is a class" style="width:100%;height: 100%;"><article id="this-article"><p>hey this is a paragraph</p><div><ul><li>1</li><li>2</li><li>3</li></ul></div></article></div>';
-var parsedComponent = reactParser(html, React);
-```
-
-## Building UIs with React
-
-If you haven't yet tried out React, Jacob Rios did a Hangout where he covers the most important aspects and thankfully he recorded it!
-
-<iframe width="650" height="315" src="//www.youtube.com/embed/lAn7GVoGlKU" frameborder="0" allowfullscreen></iframe>
 
 
 ## Random Tweets
