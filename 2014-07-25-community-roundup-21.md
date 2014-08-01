@@ -79,8 +79,23 @@ var App = React.createClass({
 
 
 ## What's React ?
-[Craig McKeachie](http://www.funnyant.com/author/admin/) author of [Javascript Framework Guide](http://www.funnyant.com/javascript-framework-guide/) wrote an excellent news named ["What is React.js? Another Template Library?](http://www.funnyant.com/reactjs-what-is-it/) Like Web Components? A Framework like AngularJS?". I think everybody who's starting React have to read it !
+[Craig McKeachie](http://www.funnyant.com/author/admin/) author of [Javascript Framework Guide](http://www.funnyant.com/javascript-framework-guide/) wrote an excellent news named ["What is React.js? Another Template Library?](http://www.funnyant.com/reactjs-what-is-it/) 
 
+>
+>Is React a Template Library?
+>Is React Similar to Web Components?
+>Are the Virtual DOM and Shadow DOM the Same?
+>Can React be used with other JavaScript MVC Frameworks?
+>Who Uses React.js?
+>Is React a Premature Optimization if you aren’t Facebook or Instagram?
+>Can I Work with Designers?
+>Will React Hurt my Search Engine Optimization (SEO)?
+>Is React a Framework for Building Applications or a Library with One Feature?
+>Are components a better way to build an application?
+>Can I build something complex with React?
+
+
+[![](/img/reactjs-virtual-dom.png)](http://www.funnyant.com/reactjs-what-is-it/)
 
 ## Random Tweets
 <blockquote class="twitter-tweet" lang="en"><p>We shipped reddit&#39;s first production <a href="https://twitter.com/reactjs">@reactjs</a> code last week, our checkout process.&#10;&#10;<a href="https://t.co/KUInwsCmAF">https://t.co/KUInwsCmAF</a></p>&mdash; Brian Holt (@holtbt) <a href="https://twitter.com/holtbt/statuses/493852312604254208">July 28, 2014</a></blockquote>
