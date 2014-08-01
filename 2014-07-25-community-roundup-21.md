@@ -82,11 +82,6 @@ var App = React.createClass({
 [Craig McKeachie](http://www.funnyant.com/author/admin/) author of [Javascript Framework Guide](http://www.funnyant.com/javascript-framework-guide/) wrote an excellent news named ["What is React.js? Another Template Library?](http://www.funnyant.com/reactjs-what-is-it/) Like Web Components? A Framework like AngularJS?". I think everybody who's starting React have to read it !
 
 
-## 5 Best Mobiles Web App Frameworks
-[Grgur Grisogono](https://github.com/grgur) write an article ["5 Best Mobile Web App Frameworks : React"](http://moduscreate.com/5-best-mobile-web-app-frameworks-reactjs/).
-This news describe with precision the React strenght's.
-
-
-## Random Tweet
+## Random Tweets
 <blockquote class="twitter-tweet" lang="en"><p>We shipped reddit&#39;s first production <a href="https://twitter.com/reactjs">@reactjs</a> code last week, our checkout process.&#10;&#10;<a href="https://t.co/KUInwsCmAF">https://t.co/KUInwsCmAF</a></p>&mdash; Brian Holt (@holtbt) <a href="https://twitter.com/holtbt/statuses/493852312604254208">July 28, 2014</a></blockquote>
 <blockquote class="twitter-tweet" lang="en"><p>.<a href="https://twitter.com/AirbnbNerds">@AirbnbNerds</a> just launched our first user-facing React.js feature to production! We love it so far. <a href="https://t.co/KtyudemcIW">https://t.co/KtyudemcIW</a> /<a href="https://twitter.com/floydophone">@floydophone</a></p>&mdash; spikebrehm (@spikebrehm) <a href="https://twitter.com/spikebrehm/statuses/491645223643013121">July 22, 2014</a></blockquote>
