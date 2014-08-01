@@ -7,18 +7,16 @@ author: Lou Husson
 ## Saving time & Staying sane? Pros & Cons of React
 [Kent William Innholt](http://http://kentwilliam.com/) text text text [New Web app tech stack](http://kentwilliam.com/articles/saving-time-staying-sane-pros-cons-of-react-js). 
 
-```javascript
+>```javascript
 ToggleButton = React.createClass
   getInitialState: -> 
     active: false
-
   toggle: ->
     @setState active: not @state.active
-
   render: ->
     React.DOM.button
       className: 'active' if @state.active 
-      onClick: @toggle   
+      onClick: @toggle
 ```
 
 
@@ -28,6 +26,26 @@ Mikael Brassman shown [some examples](http://spoike.ghost.io/deconstructing-reac
 
 <iframe allowfullscreen="" data-progress="true" frameborder="0" height="390" id="vimeo-player" mozallowfullscreen="" src="//player.vimeo.com/video/100245392?api=1&amp;title=0" webkitallowfullscreen="" width="640"></iframe>
 
+
+## How to keep a fast build with Browserify and React
+
+[idontknowyet](http://blog.avisi.nl/2014/04/25/how-to-keep-a-fast-build-with-browserify-and-reactjs/)
+
+>```javascript
+var gulp = require('gulp');
+var browserify = require('browserify');
+var source = require('vinyl-source-stream');
+var reactify = require('reactify');
+var production = process.env.NODE_ENV === 'production';
+gulp.task('scripts', function () {
+  var bundler = browserify('./src/client.js', {basedir: __dirname, debug: !production}});
+  bundler.transform(reactify);
+  var stream = bundler.bundle();
+  return stream
+    .pipe(source('bundle.js'))
+    .pipe(gulp.dest('./assets/js'));
+});
+```
 
 ## Blazing Fast HTML
 
@@ -45,6 +63,8 @@ Mikael Brassman shown [some examples](http://spoike.ghost.io/deconstructing-reac
 - Part 2 : Dynamic React interactive components
 <iframe width="560" height="315" src="//www.youtube.com/embed/5yvFLrt7N8M" frameborder="0" allowfullscreen></iframe>
 
+## Javascript's History and How it led to React
+[Chris Dawson](https://github.com/xrd) wrote an article about Christopher Chedeau [OSCon presentation's](http://www.oscon.com/oscon2014/public/schedule/speaker/133198)
 
 ## Reusable components by Khan Academy
 [Khan Academy](https://www.khanacademy.org/) wrote a pretty cool [collection](http://khan.github.io/react-components/) of some of the most reusable React component built at Khan Academy.
