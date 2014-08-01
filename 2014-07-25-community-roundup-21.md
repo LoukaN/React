@@ -75,8 +75,7 @@ var App = React.createClass({
 ## First Look: Getting Started with Facebookâ€™s ReactJS Library
 [Kirill Buga](http://modernweb.com/authors/kirill-buga/) shared about his [experience](http://modernweb.com/2014/07/23/getting-started-reactjs/) getting started with the ReactJS Library from Facebook.
 ReactJS will definitely change your perception of Front-end implementation.
-
-[<img src="http://modernweb.com/wp-content/uploads/2014/07/Screen-Shot-2014-07-22-at-15.30.40.png" style="width: 100%;" />](http://modernweb.com/2014/07/23/getting-started-reactjs/)
+[![](/img/getstart.png)](http://modernweb.com/2014/07/23/getting-started-reactjs)
 
 
 ## What's React ?
