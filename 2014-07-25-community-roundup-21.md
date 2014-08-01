@@ -73,8 +73,7 @@ var App = React.createClass({
 
 
 ## First Look: Getting Started with Facebook React Library
-[Kirill Buga](http://modernweb.com/authors/kirill-buga/) explains how React is so [different](http://modernweb.com/2014/07/23/getting-started-reactjs/).
-
+[Kirill Buga](http://modernweb.com/authors/kirill-buga/) wrote an article on Modern Web explaining how React is [different](http://modernweb.com/2014/07/23/getting-started-reactjs/) from traditional MVC used by most JavaScript applications 
 
 [![](/img/getstart.png)](http://modernweb.com/2014/07/23/getting-started-reactjs)
 
