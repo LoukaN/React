@@ -46,7 +46,7 @@ Areeb Malik talks about using React at Facebook. "On paper, all those JS framewo
 
 ## Referencing Dynamic Children
 
-Very good news by Matt Zabriskie about [referencing dynamic children](http://www.mattzabriskie.com/blog/react-referencing-dynamic-children). While Matt was developping react-tabs he had to reference dynamic children, that's why he wrote this article.
+While Matt was working  on [react-tabs](https://www.npmjs.org/package/react-tabs) he discovered how to use React.Children.map and React.addons.cloneWithProps in order to [referencing dynamic children](http://www.mattzabriskie.com/blog/react-referencing-dynamic-children).
 
 ```javascript
 var App = React.createClass({
