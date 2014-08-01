@@ -73,7 +73,7 @@ var App = React.createClass({
 
 
 ## First Look: Getting Started with Facebook React Library
-[Kirill Buga](http://modernweb.com/authors/kirill-buga/) shared about his [experience](http://modernweb.com/2014/07/23/getting-started-reactjs/) getting started with the React.
+[Kirill Buga](http://modernweb.com/authors/kirill-buga/) shared about his [experience](http://modernweb.com/2014/07/23/getting-started-reactjs/) getting started with React.
 
 > React will definitely change your perception of Front-end implementation.
 
