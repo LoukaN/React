@@ -47,6 +47,20 @@ gulp.task('scripts', function () {
 });
 ```
 
+
+## IntegratedCSS
+
+Sander Spies wrote a very good project about [Integraded CSS](https://github.com/SanderSpies/IntegratedCSS) with React
+
+>
+- It takes out the css function and transform it into plain CSS
+- The css function is executed on its own, it has no reference to 'this'
+- connect the (something.)css().something blocks to CSS
+- create CSS with annoyingly small CSS className selectors (3 characters max - up to 140608 classes)
+- CSS is coupled to the component and can be passed to another component via props (aProp={this.css().something})
+- isn't smart about actual references to the CSS function
+
+
 ## Blazing Fast HTML
 
 [Evan Czaplicki](http://evan.czaplicki.us) wrote an article about the new [elm-html](https://github.com/evancz/elm-html). It's a library which lets you use HTML and CSS directly in Elm.
