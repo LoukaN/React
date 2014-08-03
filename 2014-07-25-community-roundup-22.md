@@ -5,7 +5,8 @@ author: Lou Husson
 ---
 
 ## Saving time & Staying sane? Pros & Cons of React
-[Kent William Innholt](http://http://kentwilliam.com/) text text text [New Web app tech stack](http://kentwilliam.com/articles/saving-time-staying-sane-pros-cons-of-react-js). 
+When [Kent William Innholt](http://http://kentwilliam.com/) start working for [M>Path](http://mpath.com/) he had to build an ambitious new web app, where the UI complexity represents most of the app's complexity overall. It is in this spirit he start to uses React and he wrote this  [article](http://kentwilliam.com/articles/saving-time-staying-sane-pros-cons-of-react-js). 
+
 
 >```javascript
 ToggleButton = React.createClass
@@ -50,7 +51,7 @@ gulp.task('scripts', function () {
 
 ## IntegratedCSS
 
-Sander Spies wrote a very good project about [Integraded CSS](https://github.com/SanderSpies/IntegratedCSS) with React
+After integrating HTML into JavaScript by React, a logical next step for Sander Spies is to do the same for [CSS](https://github.com/SanderSpies/IntegratedCSS).
 
 >
 - It takes out the css function and transform it into plain CSS
