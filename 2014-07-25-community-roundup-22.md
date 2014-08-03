@@ -28,25 +28,10 @@ Mikael Brassman shown [some examples](http://spoike.ghost.io/deconstructing-reac
 <iframe allowfullscreen="" data-progress="true" frameborder="0" height="390" id="vimeo-player" mozallowfullscreen="" src="//player.vimeo.com/video/100245392?api=1&amp;title=0" webkitallowfullscreen="" width="640"></iframe>
 
 
-## How to keep a fast build with Browserify and React
+## React + Browserify + Gulp
 
-[idontknowyet](http://blog.avisi.nl/2014/04/25/how-to-keep-a-fast-build-with-browserify-and-reactjs/)
-
->```javascript
-var gulp = require('gulp');
-var browserify = require('browserify');
-var source = require('vinyl-source-stream');
-var reactify = require('reactify');
-var production = process.env.NODE_ENV === 'production';
-gulp.task('scripts', function () {
-  var bundler = browserify('./src/client.js', {basedir: __dirname, debug: !production}});
-  bundler.transform(reactify);
-  var stream = bundler.bundle();
-  return stream
-    .pipe(source('bundle.js'))
-    .pipe(gulp.dest('./assets/js'));
-});
-```
+[Truong TX Blog](http://truongtx.me/2014/07/18/using-reactjs-with-browserify-and-gulp/)
+[![](http://pedronauck.com/wp-content/uploads/2014/07/thumb_2014-07-28_react-browserify-gulp-780x500-1406522514.jpg)](http://pedronauck.com/reactjs/reactjs-de-forma-modular-usando-browserify-e-gulp)
 
 
 ## IntegratedCSS
