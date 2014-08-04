@@ -46,6 +46,20 @@ After integrating HTML into JavaScript by React, a logical next step for Sander 
 - CSS is coupled to the component and can be passed to another component via props (aProp={this.css().something})
 - isn't smart about actual references to the CSS function
 
+## React server-side rendering with Go
+
+[Stephan Behnke](https://github.com/stephanos) wrote a very good project named [React server-side rendering with Go](https://github.com/101loops/go-reactjs). This experiment is based on otto, a Javascript interpreter for Go.
+
+```
+- BenchmarkRender1         100      17128739 ns/op
+- BenchmarkRender5          50      47324904 ns/op
+- BenchmarkRender10         20      79839996 ns/op
+- BenchmarkRender20         10     164226676 ns/op
+- BenchmarkRender50          2     612836671 ns/op
+- BenchmarkRender100       1  1777275883 ns/op
+- BenchmarkRender200       1  4190131936 ns/op
+- BenchmarkRender500       1  20789000942 ns/op
+```
 
 ## Blazing Fast HTML
 
