@@ -99,6 +99,10 @@ After integrating HTML into JavaScript by React, a logical next step for Sander 
 - Backbone Mixin
 - Window Drag
 
+## React Weather
+Andrew Gleave wrote a funny project named [Weather](https://github.com/andrewgleave/react-weather)
+
+http://weather.redrobotstudios.com/
 
 ## Using Flux to Build UIs with React
 
