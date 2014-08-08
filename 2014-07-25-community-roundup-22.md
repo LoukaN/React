@@ -104,6 +104,12 @@ Andrew Gleave wrote a funny project named [Weather](https://github.com/andrewgle
 
 http://weather.redrobotstudios.com/
 
+
+## Speed Hall of Fame
+http://www.chromium.org/developers/speed-hall-of-fame
+2014-06-18 
+Jakob Kummerow landed two optimizations to V8 specifically targeted at optimizing the React framework. Thanks for your work!
+
 ## Using Flux to Build UIs with React
 
 If you haven't yet tried out React, [Gary Chambers](https://twitter.com/garychambers108) did a [guide](https://medium.com/@garychambers108/flux-in-practice-ec08daa9041a) to building UIs with React on [Flux](http://facebook.github.io/flux/).
