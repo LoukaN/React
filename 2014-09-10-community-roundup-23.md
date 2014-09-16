@@ -8,8 +8,14 @@ author: Lou Husson
 If you are looking for a React components, [Rexxars](https://github.com/rexxars) made the perfect tool for you, [React-components.com](http://react-components.com/) the first searchable repository with a database of React components
 [![](http://puu.sh/bByWv/6642bd6f77.png)](http://react-components.com)
 
+## Functional UI programming with React and ClojureScript
+[Christian Johansen](https://github.com/cjohansen) explore the path to fully functional UI programming in the browser through React, Clojurescript, Om (React for Clojurescript) and other tools.
+http://vimeo.com/97516219
+
+
 ## tcomb-validation playground
 [Giulio Canti](https://gcanti.github.io/about.html) released [few projects](https://gcanti.github.io/) with React, the last one is a JavaScript validation library based on type combinators.
+He also wrote an useful article "[An alternative syntax for React propTypes](http://gcanti.github.io/2014/09/10/an-alternative-syntax-for-react-prop-types.html)"
 
 [![](http://puu.sh/bBzIk/d05cded0e0.png)](https://gcanti.github.io/resources/tcomb-validation/playground/playground.html)
 
@@ -24,6 +30,8 @@ Remember in the [Community Round-up #21](http://facebook.github.io/react/blog/20
 - Browserify support
 - Event cleanup
 
+## Working with jQuery UI Dialog and ReactJS components
+[Sterling Cobb](https://github.com/fourcolors) recently solve the problem about data-reactid which keep track of DOM node positions [in this article](http://sterling.ghost.io/working-with-jqueryui-and-reactjs-components)
 
 ## React vs Ember
 [Alex Matchneer](https://github.com/machty) gave a talk for Ember Meetup at New York City on React vs Ember, you can discover his amazing slides [here](https://docs.google.com/presentation/d/1afMLTCpRxhJpurQ97VBHCZkLbR1TEsRnd3yyxuSQ5YY/edit#slide=id.g380053cce_150)
