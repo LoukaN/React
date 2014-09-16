@@ -4,14 +4,31 @@ layout: post
 author: Lou Husson
 ---
 
-# Flux Special Edition
-Flux is an application architecture for React utilizing a unidrectional data flow.
-In this part of the Round up we are going to show the most interesting contents.
-[Christian Alfoni](https://github.com/christianalfoni) recently wrote an [article](http://christianalfoni.github.io/javascript/2014/08/20/react-js-and-flux.html) which explain why you would want to consider the flux archiecturre with React JS as your tool to build an interface, and handle interaction and updates to that interface.
+## React Search Engine
+If you are looking for a React components, [Rexxars](https://github.com/rexxars) made the perfect tool for you, [React-components.com](http://react-components.com/) the first searchable repository with a database of React components
+[![](http://puu.sh/bByWv/6642bd6f77.png)](http://react-components.com)
+
+## tcomb-validation playground
+[Giulio Canti](https://gcanti.github.io/about.html) released [few projects](https://gcanti.github.io/) with React, the last one is a JavaScript validation library based on type combinators.
+
+[![](http://puu.sh/bBzIk/d05cded0e0.png)](https://gcanti.github.io/resources/tcomb-validation/playground/playground.html)
+
+## React Draggable
+Remember in the [Community Round-up #21](http://facebook.github.io/react/blog/2014/08/03/community-roundup-21.html) we also wrote about this [React Draggable](https://github.com/mzabriskie/react-draggable) project developped by [Matt Zabriskie](https://github.com/mzabriskie).
+10th September Matt released the version 0.2.0 which allow more things :
+
+> Released react-draggable 0.2.0
+> 
+- Snap to grid
+- Bower support
+- Browserify support
+- Event cleanup
+
 
 ## React vs Ember
-[Alex Matchneer](https://github.com/machty) during the last Ember Meetup at New York City done this [slides](https://docs.google.com/presentation/d/1afMLTCpRxhJpurQ97VBHCZkLbR1TEsRnd3yyxuSQ5YY/edit#slide=id.g380053cce_150) for the talk.
+[Alex Matchneer](https://github.com/machty) gave a talk for Ember Meetup at New York City on React vs Ember, you can discover his amazing slides [here](https://docs.google.com/presentation/d/1afMLTCpRxhJpurQ97VBHCZkLbR1TEsRnd3yyxuSQ5YY/edit#slide=id.g380053cce_150)
 
+[![](http://puu.sh/bBzds/58145ab9e6.jpg)](https://docs.google.com/presentation/d/1afMLTCpRxhJpurQ97VBHCZkLbR1TEsRnd3yyxuSQ5YY/edit#slide=id.g380053cce_150)
 
 ## Random Tweets
 <blockquote class="twitter-tweet" lang="en"><p>The excitement and teamwork in the  <a href="https://twitter.com/reactjs">@reactjs</a> community right now is palpable. Feels pretty awesome. #js</blockquote>
