@@ -25,7 +25,7 @@ Flux is an application architecture for React utilizing a unidrectional data flo
 
 [Mikael Brassman](https://github.com/spoike) wrote a simple library for unidirectional dataflow architecture inspired by React [Flux](http://facebook.github.io/react/blog/2014/05/06/flux.html).
 
-[![](http://puu.sh/bBEvU/b068472024.png)(https://github.com/spoike/refluxjs)
+[![](http://puu.sh/bBEvU/b068472024.png)](https://github.com/spoike/refluxjs)
 
 
 ## Deconstructing ReactJS's Flux
@@ -51,4 +51,4 @@ If you haven't yet tried out React, [Gary Chambers](https://twitter.com/garycham
 - Built-in React.js integration, easy to use with Flight.js and Ractive.js and probably all others.
 - Improve your UI/data consistency using rollbacks.
 
-[![](http://puu.sh/bBFkq/2720b577ef.png)
+![](http://puu.sh/bBFkq/2720b577ef.png)
