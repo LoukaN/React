@@ -30,7 +30,7 @@ Flux is an application architecture for React utilizing a unidrectional data flo
 
 ## React And Flux at New Circle
 
-Facebook engineers [Bill Fisher](https://github.com/fisherwebdev) and [Jing Chen](https://github.com/jingc) are here to talk about Flux and React, and how using an application architecture with a unidirectional data flow cleans up a lot of their code.
+Facebook engineers [Bill Fisher](https://github.com/fisherwebdev) and [Jing Chen](https://github.com/jingc) gave a talk about Flux and React, and how using an application architecture with a unidirectional data flow cleans up a lot of their code.
 
 <iframe width="560" height="315" src="//www.youtube.com/embed/i__969noyAM" frameborder="0" allowfullscreen></iframe>
 
@@ -39,6 +39,18 @@ Facebook engineers [Bill Fisher](https://github.com/fisherwebdev) and [Jing Chen
 Kevin Dangoor wrote [xx](http://www.kevindangoor.com/2014/09/intro-to-the-new-brackets-project-tree/)
 
 ![](http://puu.sh/bDoyG/fcf73f9057.jpg)
+
+
+## Implementing Undo-Redo
+
+[Ameya Karve](https://github.com/ameyakarve) write an [article](http://ameyakarve.com/jekyll/update/2014/02/06/Undo-React-Flux-Mori.html) about implementing Undo-Redo in React components using Flux.
+
+
+## Refactoring to React
+
+[Stafano Masini](https://github.com/stefanomasini) gave a talk at [Amsterdam Javascript MVC Meetup](http://www.meetup.com/JavaScript-MVC-Meetup-Amsterdam/) on the Refactoring to React.
+
+<iframe width="420" height="315" src="//www.youtube.com/embed/MivXyEtwK24" frameborder="0" allowfullscreen></iframe>
 
 
 ## Deconstructing ReactJS's Flux
