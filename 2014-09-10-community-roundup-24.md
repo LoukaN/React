@@ -28,6 +28,19 @@ Flux is an application architecture for React utilizing a unidrectional data flo
 [![](http://puu.sh/bBEvU/b068472024.png)](https://github.com/spoike/refluxjs)
 
 
+## React And Flux at New Circle
+
+Facebook engineers [Bill Fisher](https://github.com/fisherwebdev) and [Jing Chen](https://github.com/jingc) are here to talk about Flux and React, and how using an application architecture with a unidirectional data flow cleans up a lot of their code.
+
+<iframe width="560" height="315" src="//www.youtube.com/embed/i__969noyAM" frameborder="0" allowfullscreen></iframe>
+
+## React + Flux is going into Adobe's Brackets
+
+Kevin Dangoor wrote [xx](http://www.kevindangoor.com/2014/09/intro-to-the-new-brackets-project-tree/)
+
+![](http://puu.sh/bDoyG/fcf73f9057.jpg)
+
+
 ## Deconstructing ReactJS's Flux
 
 Mikael Brassman shown [some examples](http://spoike.ghost.io/deconstructing-reactjss-flux/) of the single directional data-flow architecture by comparing React reference implementation of Flux and using a library he wrote called [Reflux](https://github.com/spoike/reflux).
