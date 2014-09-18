@@ -77,3 +77,8 @@ If you haven't yet tried out React, [Gary Chambers](https://twitter.com/garycham
 - Improve your UI/data consistency using rollbacks.
 
 ![](http://puu.sh/bBFkq/2720b577ef.png)
+
+## Random Tweets
+
+<blockquote class="twitter-tweet" lang="en"><p>Prototyping React.js, wrote a shoddy Todo add/remove app. React is a game changer for building components, I love it: http://jsfiddle.net/toddmotto/jbhhh927/</blockquote>
+<blockquote class="twitter-tweet" lang="en">&mdash; Todd Motto (@toddmotto) <a href="https://twitter.com/toddmotto/status/504285033931505664">August 26, 2014</a></blockquote>
