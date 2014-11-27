@@ -6,7 +6,7 @@ author: Lou Husson
 
 ## React vs Ember
 
-[Alex Matchneer](https://github.com/machty) gave a talk for Ember Meetup at New York City on React vs Ember, you can discover his amazing slides [here](https://docs.google.com/presentation/d/1afMLTCpRxhJpurQ97VBHCZkLbR1TEsRnd3yyxuSQ5YY/edit#slide=id.g380053cce_150)
+[Alex Matchneer](https://github.com/machty) gave a [talk](https://docs.google.com/presentation/d/1afMLTCpRxhJpurQ97VBHCZkLbR1TEsRnd3yyxuSQ5YY/edit#slide=id.g380053cce_150) for Ember Meetup at New York City on React vs Ember. 
 
 [![](http://puu.sh/bBzds/58145ab9e6.jpg)](https://docs.google.com/presentation/d/1afMLTCpRxhJpurQ97VBHCZkLbR1TEsRnd3yyxuSQ5YY/edit#slide=id.g380053cce_150)
 
