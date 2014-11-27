@@ -26,7 +26,7 @@ For the [Austin Meetup](http://www.meetup.com/javascript-austin/events/216130522
 [![](http://puu.sh/d7Xy2/fb61f1ba93.jpg)](http://slides.com/kof/jss#/1)
 
 ## Async PHP with React
-[Jeremy Micola] gave a talk about Async PHP with React, that's pretty awesome, let's see
+[Jeremy Mikola](https://github.com/jmikola) gave a talk about Async PHP with React, that's pretty awesome, let's see
 <iframe width="560" height="315" src="//www.youtube.com/embed/GUErNRxv8oE" frameborder="0" allowfullscreen></iframe>
 
 ## Functional UI programming with React and ClojureScript
