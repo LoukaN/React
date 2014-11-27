@@ -6,9 +6,9 @@ author: Lou Husson
 
 ## React vs Ember
 
-[Alex Matchneer](https://github.com/machty) gave a [talk](https://docs.google.com/presentation/d/1afMLTCpRxhJpurQ97VBHCZkLbR1TEsRnd3yyxuSQ5YY/edit#slide=id.g380053cce_150) for Ember Meetup at New York City on React vs Ember. 
+[Alex Matchneer](https://github.com/machty) gave a [talk](https://docs.google.com/presentation/d/1afMLTCpRxhJpurQ97VBHCZkLbR1TEsRnd3yyxuSQ5YY/edit#slide=id.p) for Ember Meetup at New York City on React vs Ember. 
 
-[![](http://puu.sh/bBzds/58145ab9e6.jpg)](https://docs.google.com/presentation/d/1afMLTCpRxhJpurQ97VBHCZkLbR1TEsRnd3yyxuSQ5YY/edit#slide=id.g380053cce_150)
+[![](http://puu.sh/bBzds/58145ab9e6.jpg)](https://docs.google.com/presentation/d/1afMLTCpRxhJpurQ97VBHCZkLbR1TEsRnd3yyxuSQ5YY/edit#slide=id.p)
 
 ## Easiest way to find a component
 
@@ -16,9 +16,12 @@ If you are looking for a React components, [Rexxars](https://github.com/rexxars)
 
 [![](http://puu.sh/bByWv/6642bd6f77.png)](http://react-components.com)
 
+## Challenge of Working Austin Meetup
+For the [Austin Meetup](http://www.meetup.com/javascript-austin/events/216130522/), one of [SpareFoot](http://www.sparefoot.com/)'s front end developers, Nick Castrop, gave a talk about his experience with React's new front-end rendering library and their flux architecture during the last six months. 
+<iframe width="560" height="315" src="//www.youtube.com/embed/4ql09WYi0xI" frameborder="0" allowfullscreen></iframe>
 
 ## Fix CSS by writing it in JS
-[Oleg Slobodskoi](https://github.com/kof/jss) make this slide to explain how you can Fix CSS Code with React.
+[Oleg Slobodskoi](https://github.com/kof/jss) made this slide to explain how you can Fix CSS Code with React.
 
 [![](http://puu.sh/d7Xy2/fb61f1ba93.jpg)](http://slides.com/kof/jss#/1)
 
